@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<title> LOGIN/REGISTER </TITLE>
+</head>
+<style>
+header {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(header_img.jpg);
+            height: 330px;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            margin-top: 0px;
+}
+p {
+    text-align:center;
+padding: 0px;
+width: 1250px;
+  border: 5px solid gray;
+  margin: 0; 
+
+            color: black;
+            font-size: 40px;
+    font-family: "Comic Sans MS";
+border-style: solid;
+outline-style: groove;
+  background-height: 450px;
+ background -width: 500px;
+margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 40px;
+}
+  nav {
+            width: 100%;
+            height: 80px;
+            background-color: #0005;
+}
+   header nav ul {
+            float: right;
+            margin-top: 40px;
+        }
+        
+        header nav ul li {
+            display: inline-block;
+            list-style-type: none;
+            font-weight: bold;
+        }
+        
+        header nav ul a {
+            text-decoration: none;
+            color: #fff;
+            padding: 12px;
+        }
+        #login {
+            background-color: #00ccff;
+            font-weight: normal;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 5px;
+        }
+        
+        #login:hover {
+            background-color: #212529;
+            color: #fff;
+			}
+			form{
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(form-img.jpg);
+			background-size: cover;
+			background-position: center;
+			color: #fff;
+			}
+</style>
+<body>
+    <header>
+
+        <nav id="canvas">
+            <div class="container">
+                <img src="logo.png" alt="logo" height="70px" style="margin-top: 5px">
+
+                <ul style="float: right;">
+                       <li><a href="home.html"> Home</a></li>
+                    <li><a href="ABOUT IBT.html">About IBT</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signup.html" id="login">LOGIN/SIGN-UP</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<p style="color:red" align="center"><b>IBT LODGE </b> </p>
+<hr>
+<form action="blank" method="post">
+<fieldset><legend align= "center"> CREATE AN ACCOUNT</LEGEND>
+First Name:
+ <input type="text" name="Fname"> 
+Last Name: <input type="text" name="Lname">
+<br>
+<br>
+Create a Password: <input type="password" name="password">
+<br>
+<br>
+Address: <input type="text" name="Aname">
+<br>
+<br>
+GENDER: <input type="radio"  name="gender" value="male"/> MALE
+<input type="radio"  name="gender" value="female"/> FEMALE
+<br>
+<br>
+DATE OF BIRTH: <input type="date" value="date">
+<br>
+<br>
+STATE: <select name ="STATE">
+<option name="JK">JAMMU & KASHMIR</OPTION>
+<option name="HP">HIMACHAL PRADESH</OPTION>
+<option name="PUNJAB">PUNJAB</OPTION>
+<option name="Hr">HARYANA</OPTION>
+<option name="UK">UTTARAKHAND</OPTION>
+<option name="RJ">RAJASTHAN</OPTION>
+<option name="GJ">GUJRAT</OPTION>
+<option name="MH">MAHARASTARA</OPTION>
+<option name="GOA">GOA</OPTION>
+<option name="KAR">KARNATAKA</OPTION>
+<option name="KR">KERALA</OPTION>
+<option name="TN">TAMILNADU</OPTION>
+<option name="ANP">ANDHRA PRADESH</OPTION>
+<option name="TEL">TELANGANA</OPTION>
+<option name="OD">ODISHA</OPTION>
+<option name="WB">WEST BENGAL</OPTION>
+<option name="MP">MADHYA PRADESH</OPTION>
+<option name="JA">JHARKHAND</OPTION>
+<option name="BIHAR">BIHAR</OPTION>
+<option name="CHATTISGARH">CHATTISGARH</OPTION>
+<option name="SIKKIM">SIKKIM</OPTION>
+<option name="ASSAM">ASSAM</OPTION>
+<option name="ARP">ARUNACHAL PRADESH</OPTION>
+<option name="MIZORAM">MIZORAM</OPTION>
+<option name="MEGHALAYA">MEGHALAYA</OPTION>
+<option name="TRIPURA">TRIPURA</OPTION>
+<option name="MANIPUR">MANIPUR</OPTION>
+<option name="NAGALAND">NAGALAND</OPTION>
+<option name="DELHI">DELHI</OPTION>
+</select>
+<BR>
+<BR>
+DISTRICT: <input type="text" name="DISTRICT">
+<br>
+<BR>
+ADHAR NUMBER: <input type="text" name="adhar">
+<br>
+<br>
+email id: <input type="text" name="email">
+<br>
+<br>
+<input type="submit" value="submit">
+<br>
+<br>
+<BUTTON><a href="https://accounts.google.com/ServiceLogin/signinchooser?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount&followup=https%3A%2F%2Faccounts.google.com%2FManageAccount&flowName=GlifWebSignIn&flowEntry=ServiceLogin">LOGIN</a></BUTTON>
+</fieldset>
+</form>
+</body>
+</html>

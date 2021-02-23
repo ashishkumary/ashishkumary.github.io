@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+        .row {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        header .row {
+            margin-top: 0px;
+        }
+        
+        .card {
+            height: 350px;
+            overflow: hidden;
+            border-radius: 0px;
+            transition: .4s ease;
+        }
+        
+        #bathroom {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(bathroom.jpg);
+            background-size: cover;
+        }
+        
+        #toilet {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(toilet.jpg);
+            background-size: cover;
+        }
+        
+        #Hourly {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(clock.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        #snacks {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(snacks.jpg);
+            background-size: cover;
+        }
+        
+        #business {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(lounges.jpg);
+            background-size: cover;
+        }
+        
+        #business:hover {}
+        
+        #clean {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(clean.jpeg);
+            background-size: cover;
+        }
+        
+        header {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(header_img.jpg);
+            height: 330px;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            margin-top: 0px;
+        }
+        
+        nav {
+            width: 100%;
+            height: 80px;
+            background-color: #0005;
+        }
+        
+        header nav ul {
+            float: right;
+            margin-top: 40px;
+        }
+        
+        header nav ul li {
+            display: inline-block;
+            list-style-type: none;
+            font-weight: bold;
+        }
+        
+        header nav ul a {
+            text-decoration: none;
+            color: #fff;
+            padding: 12px;
+        }
+        
+        #login {
+            background-color: #00ccff;
+            font-weight: normal;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 5px;
+        }
+        
+        #login:hover {
+            background-color: #212529;
+            color: #fff;
+        }
+        
+        header nav ul a:hover {
+            color: #00ccff;
+            text-decoration: none;
+        }
+        
+        #we-offer {
+            text-align: center;
+            color: #fff;
+            font-weight: 500;
+            position: relative;
+            top: 20%;
+            font-weight: 600;
+            font-size: 60px;
+        }
+        
+        .col-lg-4 {
+            color: #fff;
+            overflow: hidden;
+        }
+        
+        .col-lg-4 .card:hover {
+            transform: scale(1.07);
+        }
+        
+        .card-txt {
+            position: absolute;
+            bottom: 20px;
+            left: 13px;
+            letter-spacing: 1.5px;
+        }
+        
+        footer {
+            background-color: #495057;
+            color: #fff;
+            margin-bottom: none;
+        }
+        
+        footer a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        footer a:hover {
+            text-decoration: none;
+        }
+        
+        .col-lg-4 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav id="canvas">
+            <div class="container">
+                <img src="logo.png" alt="logo" height="70px" style="margin-top: 5px">
+
+                <ul style="float: right;">
+                    <li><a href="home.html"> Home</a></li>
+                    <li><a href="ABOUT IBT.html">About IBT</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signup.html" id="login">LOGIN/SIGN-UP</a></li>
+                </ul>
+
+
+            </div>
+        </nav>
+        <div id="we-offer">
+            <p>We Offer</p>
+        </div>
+    </header>
+    <div class="container">
+
+
+
+        <div class="row">
+
+            <div class="col-lg-4">
+                <div class="card" id="Hourly">
+                    <div class="card-block">
+                        <h5 class="card-txt">Hourly Booking</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" id="bathroom">
+                    <div class="card-block">
+                        <h5 class="card-txt">Quick Shower<br> & Fresh N up</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" id="toilet">
+                    <div class="card-block">
+                        <h5 class="card-txt">Complementary<br> Toiletry Kit</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card" id="snacks">
+                    <div class="card-block">
+                        <h5 class="card-txt">Complementary Snacks <br>& Beverages</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" id="business">
+                    <div class="card-block">
+                        <h5 class="card-txt">Business Class<br> Experience</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" id="clean">
+                    <div class="card-block">
+                        <h5 class="card-txt">Clean & Hygenic</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container" style="padding-top: 20px;padding-bottom: 20px">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <h4>Phone Support
+                            <hr style="width: 100%;background-color: gray">
+                        </h4>
+                        <p>24/7 call us now.<br>(+91)907-666-00-66</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4>Terms of use
+                            <hr style="width: 100%;background-color: gray">
+                        </h4>
+                        <p>.<a href="#">Privacy Policy</a></p>
+                        <h4>News and Updates
+                            <hr style="width: 100%;background-color: gray">
+                        </h4>
+                        <p>.<a href="#">Recent Updates</a></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4>Find Us On Social
+                            <hr style="width: 100%;background-color: gray">
+                        </h4>
+                        <p>We are socialized. Follow us</p>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4>Connect With Us
+                            <hr style="width: 100%;background-color: gray">
+                        </h4>
+                        <p>You can connect with us at<br><b>info@ibtrooms.com</b></p>
+                        <p>For business interest<br><b>business@ibtrooms.com</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center;background-color: #212529;height: 80px;line-height: 80px;margin-bottom: 0px">Copyright 2020 by IBT Rooms. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
