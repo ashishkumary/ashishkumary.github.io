@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuians Alumni section</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&family=Ubuntu:wght@300&display=swap" rel="stylesheet"
+</head>
+<body>
+    <section id="banner">
+        <img src="logo 33.png" class="logo">
+        <div class="banner-text">
+            <h1>Alumni Section</h1>
+            <p>Achieve your Goal and find your way to success</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find out</a>
+                <a href="#"><span></span>Read More</a>
+                </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="google.html">Google</a></li>
+                <li><a href="microsoft.html">microsoft</a></li>
+                <li><a href="ibm.html">ibm</a></li>
+                <li><a href="hdfc.html">hdfc</a></li>
+                <li><a href="amazon.html">Amazon</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div id="menuBtn">
+        <img src="MENU.png" id="menu">
+    </div>
+    <section id"feature">
+<div class="title-text">
+<p>Our Vision</p>
+<h1>Connect and Learn</h1>
+</div>
+<div class="feature-box">
+    <div class="features">
+        <h1>How it helps</h1>
+        <div class="features-desc">
+            <div class="feature-icon"></div>
+            <div class="feature-text">
+                <p>We help you to connect to Alumni to
+                    get career advice, job referrals and other various recommendations.
+                </p>
+            </div>
+        </div>
+        <h1>Goals & Objectives</h1>
+        <div class="features-desc">
+            <div class="feature-icon"></div>
+            <div class="feature-text">
+                <p>Our main objective is to help Cuians
+                    to connect to alumni and learn.
+                </p>
+            </div>
+        </div>
+        <h1>How to connect</h1>
+        <div class="features-desc">
+            <div class="feature-icon"></div>
+            <div class="feature-text">
+                <p>Search alumni of your dream company 
+                    and connect to them.
+                </p>
+            </div>
+        </div>
+        </div>
+    <div class="feature-img">
+        <img src="alum 5.jpeg">
+    </div>
+</div>
+    </section>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px"
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right=="-250px"){
+                sideNav.style.right ="0";
+                menu.src = "btn.png";
+            }
+            else{
+                sideNav.style.right ="-250px";
+                menu.src = "menu.png";
+            }
+        }
+    </script>
+</body>
+</html>
